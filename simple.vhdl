@@ -77,7 +77,6 @@ architecture behavior of Simple_ComputerTb is
 
       if (inst(I) = "0000") then
         report("load: ");
-        a <= 
       elsif (inst(I) = "0001") then
         report("add: ");
       elsif (inst(I) = "1000") then
